@@ -1,0 +1,6 @@
+.env
+composer.lock
+/.phpunit*
+/coverage
+/vendor
+/.idea
