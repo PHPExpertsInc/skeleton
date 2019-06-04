@@ -19,10 +19,17 @@ function replaceProjectName(string $filename, string $newName): void
     }
 }
 
+function installGitAttributes()
+{
+    rename('_gitattributes', '.gitattributes');
+}
+
 function main()
 {
     // Get the project name from the CWD.
     $project = basename(__DIR__);
+
+    installGitAttributes();
 
     // Replace "Skeleton" with $project in every PHP file.
     $files = getProjectFiles();
@@ -35,7 +42,7 @@ function main()
         echo " - $file\n";
     }
 
-    echo "Note: This install.php file has deleted itself.\n";
+    echo "\bNote: This install.php file has deleted itself.\n";
     unlink('install.php');
 }
 
