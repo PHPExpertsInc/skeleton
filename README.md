@@ -1,4 +1,4 @@
-# Skeleton Project 
+# Standard Skeleton Project
 
 [![TravisCI](https://travis-ci.org/phpexpertsinc/SimpleDTO.svg?branch=master)](https://travis-ci.org/phpexpertsinc/SimpleDTO)
 [![Maintainability](https://api.codeclimate.com/v1/badges/503cba0c53eb262c947a/maintainability)](https://codeclimate.com/github/phpexpertsinc/SimpleDTO/maintainability)
@@ -10,6 +10,8 @@ It strives to conform to the Standard PHP Skeleton (https://github.com/php-pds/s
 
 Read [**On Structuring PHP Projects**](https://blog.nikolaposa.in.rs/2017/01/16/on-structuring-php-projects/)
 for more.
+
+The configurer was inspired by https://www.binpress.com/building-project-skeletons-composer/
 
 ## Installation
 
