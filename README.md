@@ -18,7 +18,7 @@ The configurer was inspired by https://www.binpress.com/building-project-skeleto
 Via Composer
 
 ```bash
-composer create-project phpexperts/skeleton
+composer create-project phpexperts/skeleton NewProject
 ```
 
 ## Usage

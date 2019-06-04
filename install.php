@@ -34,6 +34,9 @@ function main()
     foreach (['README.md', 'LICENSE', 'composer.json',  'The .php_cs header'] as $file) {
         echo " - $file\n";
     }
+
+    echo "Note: This install.php file has deleted itself.\n";
+    unlink('install.php');
 }
 
 main();
