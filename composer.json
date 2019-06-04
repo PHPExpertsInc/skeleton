@@ -30,7 +30,8 @@
         "friendsofphp/php-cs-fixer": "*",
         "symfony/var-dumper": "*",
         "povils/phpmnd": "*",
-        "squizlabs/php_codesniffer": "*"
+        "squizlabs/php_codesniffer": "*",
+        "vimeo/psalm": "*"
     },
     "autoload": {
         "psr-4": {
