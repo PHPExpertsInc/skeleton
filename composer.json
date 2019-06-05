@@ -41,6 +41,9 @@
     "autoload-dev": {
         "psr-4": { "PHPExperts\\Skeleton\\Tests\\" : "tests/" }
     },
+    "config": {
+        "classmap-authoritative": true
+    },
     "scripts": {
         "post-create-project-cmd": [
             "php install.php"
