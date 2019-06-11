@@ -34,6 +34,6 @@ return PhpCsFixer\Config::create()
     ])
     ->setFinder(
         PhpCsFixer\Finder::create()
-            ->exclude('venodr')
+            ->exclude('vendor')
             ->in(__DIR__)
     );
