@@ -22,4 +22,4 @@ script:
   - vendor/bin/phpunit --coverage-text --coverage-clover build/logs/clover.xml
 
 after_script:
-  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
+  - if [[ ! -z "$CC_TEST_REPORTER_ID" ]]; then ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT; fi
