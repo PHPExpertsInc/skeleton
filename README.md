@@ -1,8 +1,8 @@
 # Standard Skeleton Project
 
-[![TravisCI](https://travis-ci.org/phpexpertsinc/skeleton.svg?branch=master)](https://travis-ci.org/phpexpertsinc/skeleton)
-[![Maintainability](https://api.codeclimate.com/v1/badges/503cba0c53eb262c947a/maintainability)](https://codeclimate.com/github/phpexpertsinc/SimpleDTO/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/503cba0c53eb262c947a/test_coverage)](https://codeclimate.com/github/phpexpertsinc/SimpleDTO/test_coverage)
+[![TravisCI]()]()
+[![Maintainability]()]()
+[![Test Coverage]()]()
 
 Skeleton Project is a PHP Experts, Inc., Project meant to ease the creation of new projects.
 
@@ -28,7 +28,7 @@ Install a project, then remove the directories you won't need, like `bin`.
 You should definitely edit the LICENSE and .travis.yml to be specific to your 
 project and update the tags at the top of the README.md.
 
-# Use cases
+## Use cases
 
  ✔ Rapidly start up a project right.  
  ✔ Less time spent on boilerplating a git repo.  
@@ -41,7 +41,7 @@ project and update the tags at the top of the README.md.
 phpunit --testdox
 ```
 
-# Contributors
+## Contributors
 
 [Theodore R. Smith](https://www.phpexperts.pro/]) <theodore@phpexperts.pro>  
 GPG Fingerprint: 4BF8 2613 1C34 87AC D28F  2AD8 EB24 A91D D612 5690  
@@ -50,4 +50,4 @@ CEO: PHP Experts, Inc.
 ## License
 
 MIT license. Please see the [license file](LICENSE) for more information.
-
+:wq
