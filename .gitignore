@@ -1,6 +1,6 @@
 .env
 composer.lock
-/.php_cs
+/.php-cs-fixer.cache
 /.phpunit*
 /coverage
 /vendor
