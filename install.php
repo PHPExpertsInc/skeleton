@@ -43,7 +43,7 @@ function main()
     }
 
     echo "\bNote: This install.php file has deleted itself.\n";
-    unlink('src/empty.php');
+    unlink('src/.gitkeep');
     unlink('install.php');
 }
 
