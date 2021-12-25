@@ -1,7 +1,8 @@
 .env
 composer.lock
-/.php_cs.cache
+/.php_cs
 /.phpunit*
 /coverage
 /vendor
 /.idea
+/.vscode
