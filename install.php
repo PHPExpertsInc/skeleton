@@ -66,9 +66,11 @@ function main()
     }
 
     echo "\nYou must edit the following files:\n\n";
-    foreach (['README.md', 'LICENSE', 'composer.json',  'The .php_cs header'] as $file) {
+    foreach (['README.md', 'composer.json',  'The .php_cs header'] as $file) {
         echo " - $file\n";
     }
+
+    echo "\nDelete every LICENSE you do not want.\n";
 
     echo "\bNote: This install.php file has deleted itself.\n";
     unlink('src/.gitkeep');
