@@ -48,7 +48,7 @@
     },
     "scripts": {
         "post-create-project-cmd": [
-            "php install.php"
+            "PHP_VERSION=native php install.php"
         ]
     }
 }
