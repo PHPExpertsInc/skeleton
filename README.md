@@ -50,4 +50,3 @@ CEO: PHP Experts, Inc.
 ## License
 
 MIT license. Please see the [license file](LICENSE) for more information.
-:wq
