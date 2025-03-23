@@ -30,7 +30,7 @@
         "symfony/var-dumper": "*",
         "povils/phpmnd": "*",
         "squizlabs/php_codesniffer": "*",
-        "phpexperts/dockerize": "^12.1"
+        "phpexperts/dockerize": "^12.2"
     },
     "autoload": {
         "psr-4": {
